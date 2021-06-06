@@ -1,4 +1,4 @@
-## Eye blink detection
+## Eye Blink Detection
 A computer vision application that is capable of detecting and counting blinks in video streams using facial landmarks and OpenCV
 
 To build our blink detector, we’ll be computing a metric called the eye aspect ratio (EAR), introduced by [Soukupová and Čech in their 2016 paper](http://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf). The landmark positions, extracts a single scalar quantity – eye aspect ratio (EAR) – characterizing the eye opening in
@@ -7,6 +7,8 @@ each frame.
 In terms of blink detection, we are only interested in two sets of facial structures — the eyes. Each eye is represented by 6 (x, y)-coordinates, starting at the left-corner of the eye (as if you were looking at the person), and then working clockwise around the remainder of the region:
 
 ![](https://github.com/shejz/Eye-blink-detection/blob/main/images/eye_landmarks.jpg)
+
+### Eye Aspect Ratio (EAR) 
 
 Based on the work by **Soukupová and Čech in their 2016 paper**, Real-Time Eye Blink Detection using Facial Landmarks, we can then derive an equation that reflects this relation called the eye aspect ratio (EAR):
 

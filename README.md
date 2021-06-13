@@ -25,3 +25,7 @@ Well, as we’ll find out, the eye aspect ratio is approximately constant while 
 ![](https://github.com/shejz/Eye-blink-detection/blob/main/images/EAR%20Eye%20Landmarks.jpg)
 
 On the top-left we have an eye that is fully open — the eye aspect ratio here would be large(r) and relatively constant over time. However, once the person blinks (top-right) the eye aspect ratio decreases dramatically, approaching zero. The bottom figure plots a graph of the eye aspect ratio over time for a video clip. As we can see, the eye aspect ratio is constant, then rapidly drops close to zero, then increases again, indicating a single blink has taken place.
+
+### Sample Output
+
+![](https://github.com/shejz/Eye-blink-detection/blob/main/eye_blink.gif)

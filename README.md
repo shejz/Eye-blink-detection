@@ -1,5 +1,5 @@
 ## Eye Blink Detection
-DEMO: [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/Eye-blink-detection/blob/main/blink_detection.ipynb)
+DEMO: [![Nbviewer](https://github.com/jupyter/design/blob/main/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/Eye-blink-detection/blob/main/blink_detection.ipynb)
 
 A computer vision application that is capable of detecting and counting blinks in video streams using facial landmarks and OpenCV
 
